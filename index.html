@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi página web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="https://docs.google.com/document/d/1WNeB5v8Pi1ISuAKdAFb3Zo9NU-wjwTafHuqv4aNz780/edit?usp=share_link" target="_blank">Archivos</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h1>
+      <a href="https://docs.google.com/document/d/1x_pGi_JQYALvnha6w7kgaoPUf_qRc68lvbze_mrk9Rw/edit?usp=sharing" target="_blank">
+        Mis días
+      </a>
+    </h1>    
+    <p>Quizas te estes preguntando porque mando esto... quise mandar aunque sea un ultimo mensaje donde pueda expresar todo, y estara en vos decidir si queres ver todo lo que hay dentro de esto, los dias no han sido faciles en muchisimos aspectos y capaz para vos tampoco. pero no queria irme sin poder sacar todo lo que guardo dentro.</p>
+    <div class="cards-container">
+      <div class="card">
+        <img class="card-image" src="imagenes/Perritos.jpg" alt="princesa y sargento" onclick="openLink('https://docs.google.com/document/d/1v3jOFMgU7n7HayFhD6wmWjvA4hE4pgKnXUDJ6C-_KeU/edit?usp=share_link')">
+      </div>
+      <div class="card" onclick="openLink('https://docs.google.com/document/d/1T3YuEU1WaTZONbK29z6gM7gax069e7uJfGiMb7-MS0c/edit?usp=share_link')">
+        <img class="card-image" src="imagenes/piplut.png" alt="piplup">
+      </div>
+      <div class="card">
+        <img class="card-image" src="imagenes/YourName.png" alt="yourname" onclick="openLink('https://docs.google.com/document/d/1C5GPySqRLGz0kGU0303_Ewpz_rBTgjZZSBoiLfWD9hM/edit?usp=share_link')">
+      </div>
+    </div>
+    <div class="text-container">
+      <p>Estos días no han sido sencillos bajo ningún aspecto, casi a la par de todo, las cosas empezaron a ir mal y siempre tuve la necesidad de poder hablarte buscando alguna clase de consuelo ante todo lo que venía sucediendo, fue una constante lucha por no hacerlo porque mi plan tampoco es hacerte mal y más aún cuando fui yo quien quiso tomar espacio porque me hacía mal saber que <button class="hidden-button" onclick="openLink('https://www.youtube.com/watch?v=v6wDu-6t6Gk&ab_channel=KHEA')" aria-hidden="true">te hago mal</button>, pero eres alguien que no quiero perder de mi vida.</p>
+
+      <script>
+        function openLink(url) {
+          window.open(url, '_blank');
+        }
+      </script>
+      
+      
+      
+    </div>
+  </section>
+
+  <script>
+    function openLink(url) {
+      window.open(url, '_blank');
+    }
+  </script>
+</body>
+</html>
